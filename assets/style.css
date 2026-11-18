@@ -155,7 +155,6 @@ nav a:hover, .secondary:hover { color: var(--lime); }
   object-fit: cover;
   border: 3px solid var(--ink);
   border-radius: 49% 47% 10% 14% / 39% 40% 8% 10%;
-  filter: grayscale(1);
   background: var(--board);
 }
 .note {

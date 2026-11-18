@@ -1,12 +1,12 @@
 {
-  "title": "Sarah Chen · Private Tutor",
+  "title": "Thayananth Kumaresan · Online STEM Tutor",
   "language": "en",
-  "description": "Explore the tutoring approach, see what a one-to-one lesson includes, and book a free one-hour trial on WhatsApp.",
-  "brand": "Sarah Chen",
-  "brandNote": "PRIVATE TUTORING",
+  "description": "Online one-to-one tutoring in Computer Science, Mathematics and Science with Thayananth Kumaresan. Book a free one-hour trial on WhatsApp.",
+  "brand": "Thayananth Kumaresan",
+  "brandNote": "ONLINE STEM TUTORING",
   "phone": "+601126111475",
   "message": "Hi! I’d like to book a free one-hour trial class for my child. Could you share your availability?",
-  "footer": "Sarah Chen · Private Tutoring  /  Sample profile",
+  "footer": "Thayananth Kumaresan · Online Private Tutoring",
   "contactLabel": "WhatsApp",
   "theme": {
     "board": "#102f25",
@@ -24,15 +24,15 @@
       "id": "home",
       "type": "hero",
       "nav": "",
-      "label": "PRIVATE TUTORING • MALAYSIA",
+      "label": "ONLINE PRIVATE TUTORING · MALAYSIA",
       "heading": "Meet your\nnext tutor.",
-      "highlight": "I’m Sarah Chen!",
-      "body": "Patient, one-to-one lessons that help your child make sense of schoolwork and feel more confident asking questions.",
+      "highlight": "I’m Thayananth!",
+      "body": "One-to-one online lessons in Asas Sains Komputer, Sains Komputer, Mathematics and Science for secondary students. We work through tricky topics together and build confidence through practice.",
       "action": "Book a free 1-hour trial",
       "secondary": "See how I teach",
       "target": "approach",
-      "image": "./assets/tutor.webp",
-      "imageAlt": "Illustrative portrait of the sample tutor holding a book",
+      "image": "./assets/thayananth.webp",
+      "imageAlt": "Portrait of Thayananth Kumaresan",
       "note": "Small steps.\nBig aha! moments."
     },
     {
@@ -64,24 +64,24 @@
       "nav": "Subjects",
       "label": "WHAT WE CAN WORK ON",
       "heading": "Subjects I teach",
-      "body": "Sample lesson options for upper primary and secondary students.",
+      "body": "Online lessons for Malaysian secondary students. Here’s what I teach by form level.",
       "cards": [
         {
-          "symbol": "∑",
-          "heading": "Mathematics",
-          "body": "Build confidence with fractions, algebra and word problems through worked examples.",
+          "symbol": "{ }",
+          "heading": "Computer Science",
+          "body": "Asas Sains Komputer (ASK) for Forms 1–3 and Sains Komputer for Form 4.",
           "color": "#f8f1d9"
         },
         {
-          "symbol": "⚗",
-          "heading": "Science & Physics",
-          "body": "Connect diagrams and everyday examples to the ideas behind the formulas.",
+          "symbol": "∑",
+          "heading": "Mathematics",
+          "body": "Forms 1–3. Work through examples and practise explaining each step.",
           "color": "#d0ef69"
         },
         {
-          "symbol": "Aa",
-          "heading": "English Literature",
-          "body": "Read closely, discuss what a text means and practise writing clear arguments.",
+          "symbol": "⚗",
+          "heading": "Science",
+          "body": "Forms 1–3. Make sense of key ideas with diagrams, everyday examples, and guided questions.",
           "color": "#fa91cd"
         }
       ],
@@ -217,20 +217,68 @@
   "pages": {
     "profile": {
       "nav": "Profile",
-      "title": "Tutor Profile · Sarah Chen",
-      "description": "Meet the tutor and explore how one-to-one classes are tailored to your child.",
+      "title": "Tutor Profile · Thayananth Kumaresan",
+      "description": "Meet Thayananth Kumaresan, a Computer Science graduate and online STEM tutor based in Petaling Jaya, Selangor.",
       "sections": [
         {
           "id": "profile-intro",
           "type": "hero",
-          "label": "TUTOR PROFILE · SAMPLE BIO",
-          "heading": "Meet Sarah Chen.",
-          "highlight": "Room to ask questions.",
-          "body": "My approach starts with listening. I ask your child to explain what they’ve tried, then we work through the part that feels unclear at a pace that suits them.",
+          "label": "TUTOR PROFILE · PETALING JAYA, SELANGOR",
+          "heading": "Meet Thayananth Kumaresan.",
+          "highlight": "STEM educator & Computer Science graduate",
+          "body": "I tutor secondary students online and coach children and teens in coding, digital creation, and AI literacy. I adapt the pace to each learner and use questions and hands-on practice to help them explain what they understand.",
           "action": "Book a free 1-hour trial",
-          "image": "./assets/tutor.webp",
-          "imageAlt": "Illustrative portrait of the sample tutor holding a book",
+          "image": "./assets/thayananth.webp",
+          "imageAlt": "Portrait of Thayananth Kumaresan",
           "note": "Practise.\nAsk. Try again."
+        },
+        {
+          "id": "education",
+          "type": "cards",
+          "presentation": "features",
+          "label": "EDUCATION",
+          "heading": "My academic background",
+          "cards": [
+            {
+              "symbol": "UM",
+              "heading": "Bachelor of Computer Science (Data Science)",
+              "body": "Universiti Malaya · 2021–2025 · Graduated with honours and distinction. CGPA 3.84.",
+              "color": "#d0ef69"
+            },
+            {
+              "symbol": "MMU",
+              "heading": "Diploma in Information Technology",
+              "body": "Multimedia University · 2019–2021 · CGPA 4.00. Named Best Student in the Diploma in IT.",
+              "color": "#fa91cd"
+            }
+          ]
+        },
+        {
+          "id": "recognition",
+          "type": "cards",
+          "presentation": "checklist",
+          "label": "SELECTED RECOGNITION",
+          "heading": "Academic and project awards",
+          "cards": [
+            {
+              "symbol": "UM",
+              "heading": "Dean’s Special Award",
+              "body": "Faculty of Computer Science, Universiti Malaya · 2025.",
+              "color": "#d0ef69"
+            },
+            {
+              "symbol": "01",
+              "heading": "ITEX Gold Award",
+              "body": "International Invention, Innovation & Technology Exhibition · 2024.",
+              "color": "#fa91cd"
+            },
+            {
+              "symbol": "03",
+              "heading": "HKUST Entrepreneurship Bootcamp",
+              "body": "Third place in the bootcamp challenge · 2025.",
+              "color": "#f8f1d9"
+            }
+          ]
         },
         {
           "id": "profile-values",
@@ -274,39 +322,57 @@
     },
     "experience": {
       "nav": "Experience",
-      "title": "Teaching Experience · Sarah Chen",
-      "description": "Explore examples of one-to-one tutoring, revision, and school project guidance.",
+      "title": "Teaching Experience · Thayananth Kumaresan",
+      "description": "Teaching experience in one-to-one secondary tutoring, coding classes, school enrichment and mentoring.",
       "sections": [
         {
           "id": "experience-intro",
           "type": "text",
           "label": "TEACHING EXPERIENCE",
-          "heading": "What tutoring looks like in practice",
-          "body": "These sample scenarios show how a lesson can respond to your child’s needs. Private tutoring is one-to-one and includes guided practice, feedback, and resources for after class."
+          "heading": "Where I’ve taught",
+          "body": "My teaching experience spans online private tutoring, coding classes, and school enrichment. I’ve worked with children and teens in both individual and mixed-ability classes."
         },
         {
-          "id": "experience-examples",
+          "id": "teaching-roles",
           "type": "cards",
-          "presentation": "tiles",
-          "label": "SAMPLE TEACHING SCENARIOS",
-          "heading": "Three ways I can help",
+          "presentation": "standard",
+          "label": "TEACHING ROLES",
+          "heading": "Tutoring, coding and school enrichment",
           "cards": [
             {
-              "symbol": "∑",
-              "heading": "When a topic feels stuck",
-              "body": "We break down one tricky question, solve it together, and try a similar question to see what clicked.",
+              "symbol": "Mar 2024–present",
+              "heading": "Online private tutor",
+              "body": "One-to-one online tuition in ASK, Science and Mathematics for Forms 1–3, and Sains Komputer for Form 4.",
               "color": "#f8f1d9"
             },
             {
-              "symbol": "✓",
-              "heading": "When a school test is coming up",
-              "body": "Chapter-wise quizzes and practice questions help identify what your child should revise first.",
+              "symbol": "Sep 2026–present",
+              "heading": "CCA coach at Sri KDU Subang Jaya",
+              "body": "Through MySchool, I coach Digital Creators Club and AI & Future Innovators Lab. Students use Canva and CapCut, practise responsible AI use, and create projects they can present.",
               "color": "#d0ef69"
             },
             {
-              "symbol": "✷",
-              "heading": "When a project feels too big",
-              "body": "We read the instructions together and turn the task into steps your child can work through.",
+              "symbol": "Apr 2023–Sep 2025",
+              "heading": "Part-time tutor at Algorithmics",
+              "body": "Taught Scratch, Python, HTML/CSS, data science and app development. Adapted tasks for mixed-ability groups and updated parents at learning milestones.",
+              "color": "#fa91cd"
+            },
+            {
+              "symbol": "Apr–May 2023",
+              "heading": "Tutor at Arena Matriks Tuition Centre",
+              "body": "Taught Science and Mathematics in group lessons for Standards 4–6.",
+              "color": "#f8f1d9"
+            },
+            {
+              "symbol": "Oct 2022–Jan 2023",
+              "heading": "Tutor at Ascension (Astra)",
+              "body": "Delivered one-to-one tuition in IGCSE Combined Science.",
+              "color": "#d0ef69"
+            },
+            {
+              "symbol": "2025",
+              "heading": "Teach For Malaysia mentor",
+              "body": "Mentored in Program Komuniti Perkasa and led an eco-art activity.",
               "color": "#fa91cd"
             }
           ]
