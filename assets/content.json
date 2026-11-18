@@ -212,5 +212,143 @@
       "note": "1-to-1\n60 minutes"
     }
   ],
-  "brandMark": "✳"
+  "brandMark": "✳",
+  "homeLabel": "Home",
+  "pages": {
+    "profile": {
+      "nav": "Profile",
+      "title": "Tutor Profile · Sarah Chen",
+      "description": "Meet the tutor and explore how one-to-one classes are tailored to your child.",
+      "sections": [
+        {
+          "id": "profile-intro",
+          "type": "hero",
+          "label": "TUTOR PROFILE · SAMPLE BIO",
+          "heading": "Meet Sarah Chen.",
+          "highlight": "Room to ask questions.",
+          "body": "My approach starts with listening. I ask your child to explain what they’ve tried, then we work through the part that feels unclear at a pace that suits them.",
+          "action": "Book a free 1-hour trial",
+          "image": "./assets/tutor.webp",
+          "imageAlt": "Illustrative portrait of the sample tutor holding a book",
+          "note": "Practise.\nAsk. Try again."
+        },
+        {
+          "id": "profile-values",
+          "type": "cards",
+          "presentation": "features",
+          "label": "WHAT GUIDES MY LESSONS",
+          "heading": "How I work with your child",
+          "cards": [
+            {
+              "symbol": "✎",
+              "heading": "Make it hands-on",
+              "body": "We draw diagrams, work through examples, and talk through the reasoning.",
+              "color": "#d0ef69"
+            },
+            {
+              "symbol": "✷",
+              "heading": "Notice the small wins",
+              "body": "A quiz or short practice question helps us see what’s clicked and what to revisit.",
+              "color": "#fa91cd"
+            }
+          ]
+        },
+        {
+          "id": "profile-first",
+          "type": "text",
+          "label": "BEFORE THE TRIAL",
+          "heading": "Tell me a little about your child",
+          "body": "Their year level and one topic they find difficult are enough to get started. You can also share a recent worksheet or project question so we have something familiar to work on."
+        },
+        {
+          "id": "profile-trial",
+          "type": "cta",
+          "nav": "",
+          "label": "YOUR FIRST LESSON",
+          "heading": "Try a full hour, free.",
+          "body": "Your child can experience my teaching style in a free, one-to-one, 60-minute trial class. Afterwards, you can decide whether to continue. Send me their year level and subject on WhatsApp to find a time.",
+          "action": "Book on WhatsApp",
+          "note": "1-to-1\n60 minutes"
+        }
+      ]
+    },
+    "experience": {
+      "nav": "Experience",
+      "title": "Teaching Experience · Sarah Chen",
+      "description": "Explore examples of one-to-one tutoring, revision, and school project guidance.",
+      "sections": [
+        {
+          "id": "experience-intro",
+          "type": "text",
+          "label": "TEACHING EXPERIENCE",
+          "heading": "What tutoring looks like in practice",
+          "body": "These sample scenarios show how a lesson can respond to your child’s needs. Private tutoring is one-to-one and includes guided practice, feedback, and resources for after class."
+        },
+        {
+          "id": "experience-examples",
+          "type": "cards",
+          "presentation": "tiles",
+          "label": "SAMPLE TEACHING SCENARIOS",
+          "heading": "Three ways I can help",
+          "cards": [
+            {
+              "symbol": "∑",
+              "heading": "When a topic feels stuck",
+              "body": "We break down one tricky question, solve it together, and try a similar question to see what clicked.",
+              "color": "#f8f1d9"
+            },
+            {
+              "symbol": "✓",
+              "heading": "When a school test is coming up",
+              "body": "Chapter-wise quizzes and practice questions help identify what your child should revise first.",
+              "color": "#d0ef69"
+            },
+            {
+              "symbol": "✷",
+              "heading": "When a project feels too big",
+              "body": "We read the instructions together and turn the task into steps your child can work through.",
+              "color": "#fa91cd"
+            }
+          ]
+        },
+        {
+          "id": "experience-progress",
+          "type": "cards",
+          "presentation": "steps",
+          "label": "FOLLOWING PROGRESS",
+          "heading": "What happens after the lesson",
+          "cards": [
+            {
+              "symbol": "✎",
+              "heading": "Practise the skill",
+              "body": "Your child gets a short follow-up task alongside notes or resources to refer to.",
+              "color": "#d0ef69"
+            },
+            {
+              "symbol": "✓",
+              "heading": "Check understanding",
+              "body": "In later lessons, recap questions and chapter tests help us see what has stuck.",
+              "color": "#f8f1d9"
+            },
+            {
+              "symbol": "↗",
+              "heading": "Choose the next focus",
+              "body": "We use the results to decide what needs more practice and when to move on.",
+              "color": "#fa91cd"
+            }
+          ]
+        },
+        {
+          "id": "experience-trial",
+          "type": "cta",
+          "nav": "",
+          "label": "YOUR FIRST LESSON",
+          "heading": "Try a full hour, free.",
+          "body": "Your child can experience my teaching style in a free, one-to-one, 60-minute trial class. Afterwards, you can decide whether to continue. Send me their year level and subject on WhatsApp to find a time.",
+          "action": "Book on WhatsApp",
+          "note": "1-to-1\n60 minutes"
+        }
+      ]
+    }
+  }
 }

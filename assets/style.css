@@ -309,3 +309,16 @@ nav a:hover, .secondary:hover { color: var(--lime); }
 .checklist .symbol, .timeline .symbol { grid-column: 1; grid-row: 1 / span 2; }
 .checklist .paper:not(:has(.symbol)), .timeline .paper:not(:has(.symbol)) { grid-template-columns: 1fr; }
 .checklist .paper:not(:has(.symbol)) > *, .timeline .paper:not(:has(.symbol)) > * { grid-column: 1; }
+
+nav [aria-current="page"] { color: var(--lime); text-decoration: underline; text-underline-offset: .32em; }
+@media (min-width: 721px) {
+  .header nav { justify-content: flex-end; }
+  .header .brand { flex: 0 0 auto; }
+}
+body[data-page="experience"] main > .section:first-child {
+  background:
+    repeating-linear-gradient(0deg, transparent 0 31px, #f8f1d912 31px 32px),
+    repeating-linear-gradient(90deg, transparent 0 31px, #f8f1d912 31px 32px),
+    var(--board);
+}
+body[data-page="experience"] main > .section:first-child .copy { max-width: 760px; }

@@ -1,5 +1,7 @@
 (() => {
   const root = document.querySelector('#site');
+  const pageKey = document.body?.dataset.page;
+  const pageLinks = { profile: './profile.html', experience: './experience.html' };
   const preview = location.hash === '#editor-preview' && window.parent !== window;
   const node = (tag, cls, value) => {
     const element = document.createElement(tag);
@@ -26,11 +28,12 @@
   }
   function render(data) {
     root.replaceChildren();
-    document.title = data.title || 'Portfolio';
+    const page = pageKey ? data.pages?.[pageKey] : data;
+    document.title = page?.title || 'Portfolio';
     document.documentElement.lang = data.language || 'en';
     const meta = document.querySelector('meta[name="description"]') || node('meta');
     meta.name = 'description';
-    meta.content = data.description || '';
+    meta.content = page?.description || '';
     document.head.append(meta);
     for (const key of ['board', 'deep', 'ink', 'lime', 'pink', 'paper']) {
       document.documentElement.style.setProperty('--' + key, data.theme?.[key] || '');
@@ -39,7 +42,7 @@
       const value = data.theme?.[key]?.replace(/[^\p{L}\d -]/gu, '');
       document.documentElement.style.setProperty(property, value ? JSON.stringify(value) : '');
     }
-    const sections = data.sections || [];
+    const sections = page?.sections || [];
     const digits = (data.phone || '').replace(/\D/g, '');
     const whatsapp = /^\d{7,15}$/.test(digits) ? 'https://wa.me/' + digits + (data.message ? '?text=' + encodeURIComponent(data.message) : '') : '';
     const header = node('header', 'header');
@@ -56,8 +59,19 @@
     }
     const nav = node('nav');
     nav.setAttribute('aria-label', 'Main navigation');
+    const home = link(nav, data.homeLabel, './', 'page-link');
+    if (!pageKey) home?.setAttribute('aria-current', 'page');
+    for (const [key, href] of Object.entries(pageLinks)) {
+      const pageLink = link(nav, data.pages?.[key]?.nav, href, 'page-link');
+      if (key === pageKey) pageLink?.setAttribute('aria-current', 'page');
+    }
     for (const section of sections) {
       link(nav, section.nav, section.id && '#' + encodeURIComponent(section.id));
+    }
+    if (preview) {
+      for (const pageLink of Array.from(nav.children).filter(item => item.className === 'page-link')) {
+        pageLink.addEventListener('click', event => event.preventDefault());
+      }
     }
     link(nav, data.contactLabel, whatsapp, 'nav-contact');
     if (nav.childElementCount) header.append(nav);
