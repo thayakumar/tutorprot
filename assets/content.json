@@ -1,0 +1,127 @@
+{
+  "title": "Sarah Chen · Private Tutor",
+  "language": "en",
+  "description": "Explore Sarah Chen’s tutoring approach and ask about a free trial lesson.",
+  "brand": "Sarah Chen",
+  "brandNote": "PRIVATE TUTORING",
+  "phone": "+601126111475",
+  "message": "Hi! I’m interested in a free trial lesson for my child. Could you tell me more?",
+  "footer": "Sarah Chen · Private Tutoring  /  Sample profile",
+  "contactLabel": "WhatsApp",
+  "theme": {
+    "board": "#102f25",
+    "deep": "#0b241c",
+    "ink": "#fff9e8",
+    "lime": "#d0ef69",
+    "pink": "#fa91cd",
+    "paper": "#f8f1d9",
+    "displayFont": "Archivo Black",
+    "handFont": "Kalam",
+    "bodyFont": "DM Sans"
+  },
+  "sections": [
+    {
+      "id": "home",
+      "type": "hero",
+      "nav": "",
+      "label": "PRIVATE TUTORING • MALAYSIA",
+      "heading": "Meet your\nnext tutor.",
+      "highlight": "I’m Sarah Chen!",
+      "body": "Patient, one-to-one lessons that help your child make sense of schoolwork and feel more confident asking questions.",
+      "action": "Book a free trial",
+      "secondary": "See how I teach",
+      "target": "approach",
+      "image": "./assets/tutor.webp",
+      "imageAlt": "Illustrative portrait of the sample tutor holding a book",
+      "note": "Small steps.\nBig aha! moments."
+    },
+    {
+      "id": "approach",
+      "type": "cards",
+      "nav": "How I teach",
+      "label": "MY TEACHING APPROACH",
+      "heading": "Make it click.",
+      "body": "I start by finding the step that feels confusing. Then we work through an example together and your child tries a similar one on their own.",
+      "cards": [
+        {
+          "symbol": "✎",
+          "heading": "Learn by doing",
+          "body": "We draw, discuss and practise so I can see how your child is thinking.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "✷",
+          "heading": "A pace that fits",
+          "body": "We leave room for questions and spend extra time where it makes a difference.",
+          "color": "#d0ef69"
+        }
+      ]
+    },
+    {
+      "id": "subjects",
+      "type": "cards",
+      "nav": "Subjects",
+      "label": "WHAT WE CAN WORK ON",
+      "heading": "Subjects I teach",
+      "body": "Sample lesson options for upper primary and secondary students.",
+      "cards": [
+        {
+          "symbol": "∑",
+          "heading": "Mathematics",
+          "body": "Build confidence with fractions, algebra and word problems through worked examples.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "⚗",
+          "heading": "Science & Physics",
+          "body": "Connect diagrams and everyday examples to the ideas behind the formulas.",
+          "color": "#d0ef69"
+        },
+        {
+          "symbol": "Aa",
+          "heading": "English Literature",
+          "body": "Read closely, discuss what a text means and practise writing clear arguments.",
+          "color": "#fa91cd"
+        }
+      ]
+    },
+    {
+      "id": "first-lesson",
+      "type": "cards",
+      "nav": "What to expect",
+      "label": "FOR PARENTS",
+      "heading": "Before the first lesson",
+      "cards": [
+        {
+          "symbol": "01",
+          "heading": "Tell me what’s tricky",
+          "body": "Share your child’s year level, subject and a topic or homework question they’d like help with.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "02",
+          "heading": "Try a short lesson",
+          "body": "We’ll work through an example together, then give your child a chance to try a similar question.",
+          "color": "#d0ef69"
+        },
+        {
+          "symbol": "03",
+          "heading": "Talk through next steps",
+          "body": "After the trial, I’ll share what I noticed and what we could practise next.",
+          "color": "#fa91cd"
+        }
+      ]
+    },
+    {
+      "id": "trial",
+      "type": "cta",
+      "nav": "Free trial",
+      "label": "YOUR FIRST LESSON",
+      "heading": "Let’s get started!",
+      "body": "Tell me your child’s year level and one topic they find tricky. We’ll find a time for a free trial lesson so you can see how tutoring feels.",
+      "action": "Ask about a free trial",
+      "note": "Bring one\ntricky question!"
+    }
+  ],
+  "brandMark": "✳"
+}
