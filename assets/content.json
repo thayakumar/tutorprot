@@ -1,11 +1,11 @@
 {
   "title": "Sarah Chen · Private Tutor",
   "language": "en",
-  "description": "Explore Sarah Chen’s tutoring approach and ask about a free trial lesson.",
+  "description": "Explore the tutoring approach, see what a one-to-one lesson includes, and book a free one-hour trial on WhatsApp.",
   "brand": "Sarah Chen",
   "brandNote": "PRIVATE TUTORING",
   "phone": "+601126111475",
-  "message": "Hi! I’m interested in a free trial lesson for my child. Could you tell me more?",
+  "message": "Hi! I’d like to book a free one-hour trial class for my child. Could you share your availability?",
   "footer": "Sarah Chen · Private Tutoring  /  Sample profile",
   "contactLabel": "WhatsApp",
   "theme": {
@@ -28,7 +28,7 @@
       "heading": "Meet your\nnext tutor.",
       "highlight": "I’m Sarah Chen!",
       "body": "Patient, one-to-one lessons that help your child make sense of schoolwork and feel more confident asking questions.",
-      "action": "Book a free trial",
+      "action": "Book a free 1-hour trial",
       "secondary": "See how I teach",
       "target": "approach",
       "image": "./assets/tutor.webp",
@@ -86,11 +86,95 @@
       ]
     },
     {
+      "id": "benefits",
+      "type": "cards",
+      "nav": "",
+      "label": "WHAT YOUR CHILD RECEIVES",
+      "heading": "Support in class and between lessons",
+      "cards": [
+        {
+          "symbol": "1:1",
+          "heading": "Individual lessons",
+          "body": "One-to-one attention in every class.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "▤",
+          "heading": "Slides, notes & resources",
+          "body": "Materials your child can revisit when they need a refresher.",
+          "color": "#d0ef69"
+        },
+        {
+          "symbol": "?",
+          "heading": "Quizzes",
+          "body": "Quick checks to see what your child understands and where they need help.",
+          "color": "#fa91cd"
+        },
+        {
+          "symbol": "✎",
+          "heading": "Homework after class",
+          "body": "Practice to reinforce what we worked on together.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "✓",
+          "heading": "Tests by chapter",
+          "body": "Track progress chapter by chapter and see what needs more practice.",
+          "color": "#d0ef69"
+        },
+        {
+          "symbol": "✷",
+          "heading": "School project guidance",
+          "body": "Help breaking down the task and planning the next steps.",
+          "color": "#fa91cd"
+        }
+      ]
+    },
+    {
+      "id": "lesson",
+      "type": "cards",
+      "nav": "Lesson plan",
+      "label": "A TYPICAL 60-MINUTE CLASS",
+      "heading": "How a lesson flows",
+      "cards": [
+        {
+          "symbol": "5 min",
+          "heading": "Quick recap",
+          "body": "Recall the key ideas from the previous lesson.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "25 min",
+          "heading": "One new concept",
+          "body": "Break it down and work through an example together.",
+          "color": "#d0ef69"
+        },
+        {
+          "symbol": "15 min",
+          "heading": "Guided practice",
+          "body": "Try questions with support as needed.",
+          "color": "#fa91cd"
+        },
+        {
+          "symbol": "10 min",
+          "heading": "Quick quiz",
+          "body": "Check understanding and spot anything that’s still unclear.",
+          "color": "#f8f1d9"
+        },
+        {
+          "symbol": "5 min",
+          "heading": "Review & homework",
+          "body": "Recap, share feedback and set homework.",
+          "color": "#d0ef69"
+        }
+      ]
+    },
+    {
       "id": "first-lesson",
       "type": "cards",
-      "nav": "What to expect",
+      "nav": "",
       "label": "FOR PARENTS",
-      "heading": "Before the first lesson",
+      "heading": "Your first class, step by step",
       "cards": [
         {
           "symbol": "01",
@@ -100,8 +184,8 @@
         },
         {
           "symbol": "02",
-          "heading": "Try a short lesson",
-          "body": "We’ll work through an example together, then give your child a chance to try a similar question.",
+          "heading": "Try a free one-hour class",
+          "body": "Your child will learn a concept and work through practice questions with me.",
           "color": "#d0ef69"
         },
         {
@@ -117,10 +201,10 @@
       "type": "cta",
       "nav": "Free trial",
       "label": "YOUR FIRST LESSON",
-      "heading": "Let’s get started!",
-      "body": "Tell me your child’s year level and one topic they find tricky. We’ll find a time for a free trial lesson so you can see how tutoring feels.",
-      "action": "Ask about a free trial",
-      "note": "Bring one\ntricky question!"
+      "heading": "Try a full hour, free.",
+      "body": "Your child can experience my teaching style in a free, one-to-one, 60-minute trial class. Afterwards, you can decide whether to continue. Send me their year level and subject on WhatsApp to find a time.",
+      "action": "Book on WhatsApp",
+      "note": "1-to-1\n60 minutes"
     }
   ],
   "brandMark": "✳"
