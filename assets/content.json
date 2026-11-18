@@ -15,7 +15,7 @@
     "lime": "#d0ef69",
     "pink": "#fa91cd",
     "paper": "#f8f1d9",
-    "displayFont": "Archivo Black",
+    "displayFont": "Bricolage Grotesque",
     "handFont": "Kalam",
     "bodyFont": "DM Sans"
   },
@@ -55,7 +55,8 @@
           "body": "We leave room for questions and spend extra time where it makes a difference.",
           "color": "#d0ef69"
         }
-      ]
+      ],
+      "presentation": "features"
     },
     {
       "id": "subjects",
@@ -83,7 +84,8 @@
           "body": "Read closely, discuss what a text means and practise writing clear arguments.",
           "color": "#fa91cd"
         }
-      ]
+      ],
+      "presentation": "tiles"
     },
     {
       "id": "benefits",
@@ -128,7 +130,8 @@
           "body": "Help breaking down the task and planning the next steps.",
           "color": "#fa91cd"
         }
-      ]
+      ],
+      "presentation": "checklist"
     },
     {
       "id": "lesson",
@@ -167,7 +170,8 @@
           "body": "Recap, share feedback and set homework.",
           "color": "#d0ef69"
         }
-      ]
+      ],
+      "presentation": "timeline"
     },
     {
       "id": "first-lesson",
@@ -194,7 +198,8 @@
           "body": "After the trial, I’ll share what I noticed and what we could practise next.",
           "color": "#fa91cd"
         }
-      ]
+      ],
+      "presentation": "steps"
     },
     {
       "id": "trial",

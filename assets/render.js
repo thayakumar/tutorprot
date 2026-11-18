@@ -68,6 +68,10 @@
       const type = ['hero', 'cards', 'cta'].includes(section.type) ? section.type : 'text';
       const area = node('section', 'section ' + type);
       if (section.id) area.id = section.id;
+      const styles = ['features', 'tiles', 'checklist', 'timeline', 'steps'];
+      const defaultStyles = { approach: 'features', subjects: 'tiles', benefits: 'checklist', lesson: 'timeline', 'first-lesson': 'steps' };
+      const presentation = section.presentation ?? defaultStyles[section.id];
+      if (styles.includes(presentation)) area.className += ' ' + presentation;
       const copy = node('div', 'copy');
       add(copy, 'p', 'eyebrow', section.label);
       if (section.heading) {
@@ -95,9 +99,11 @@
         add(area, 'p', 'note', section.note);
       }
       if (section.cards?.length) {
-        const grid = node('div', 'cards-grid');
+        const ordered = presentation === 'timeline' || presentation === 'steps';
+        const grid = node(ordered ? 'ol' : 'ul', 'cards-grid');
+        grid.setAttribute('role', 'list');
         for (const card of section.cards) {
-          const item = node('article', 'paper');
+          const item = node('li', 'paper');
           if (/^#[\da-f]{6}$/i.test(card.color || '')) item.style.setProperty('--card', card.color);
           add(item, 'span', 'symbol', card.symbol);
           add(item, hasHeading ? 'h3' : 'h2', '', card.heading);
